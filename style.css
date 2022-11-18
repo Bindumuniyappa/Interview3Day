@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+.top-section{
+    width: 1500px;
+    height: 100px;
+}
+.logo{
+    width: 200px;
+    height: 114px;
+    background-image: url("prepbyte.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 60px;
+}
+.collegetext{
+    position: absolute;
+    top: 64px;
+    left: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1300px;
+
+}
+
+.button1 {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    margin: 10px;
+    position: absolute;
+    top: 30px;
+    left: 1255px;
+
+}
+.button2 {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    margin: 10px;
+    position: absolute;
+    top: 30px;
+    left: 1350px;
+
+}
+.options {
+
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+
+}
+
+
+.option1 {
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+
+}
+.option1 {
+    width: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+        top: 10px;
+        left:-24px ;
+   
+
+}
+.option2 {
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 585px;
+    text-align: center;
+
+}
+.option3 {
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    position: absolute;
+        top: 10px;
+        left: 425px;
+
+}
+.option4 {
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    position: absolute;
+        top: 10px;
+        left: 300px;
+
+}
+.option5 {
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    position: absolute;
+        top: 10px;
+        left: 150px;
+
+}
+.googletext{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: 5s all linear;
+}
+.box:hover{
+    width: 400px;
+    transform: scaleX(5);
+
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: palegreen;
+    border-radius: 50%;
+}
+.rotate{
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    margin-left: 200px;
+    transition: all 2s ease-in-out;
+}
+.rotate:hover{
+    
+    transform: rotate(360deg) skew(40deg);
+}
